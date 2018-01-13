@@ -45,4 +45,4 @@ for i in range(100):
 
 with open("Generated_city_names.txt","w") as e:
     for x in ls:
-        e.write("{} ".format(x))
+        e.write("{}\n".format(x))
